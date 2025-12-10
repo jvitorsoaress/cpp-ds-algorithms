@@ -1,4 +1,4 @@
-# Solved-Code-Problems
+# Data Struct and Algorithms Problems in C++
 
 This repository contains solutions to coding challenges from various platforms. It serves as a personal collection of solved problems for learning, practice, and reference.
 
