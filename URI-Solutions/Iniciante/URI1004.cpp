@@ -1,11 +1,12 @@
-using System; 
+#include <iostream>
+using namespace std;
 
-public class URI1004{
-    static void Main(string[] args) {
-        int A = int.Parse(Console.ReadLine());
-        int B = int.Parse(Console.ReadLine());
-        int PROD = A * B;
+int main() {
+    int A, B, PROD;   
+    cin >> A;
+    cin >> B;
 
-        Console.WriteLine($"PROD = {PROD}");
-    }
+    PROD = A * B;
+    cout << "PROD = " << PROD;
+    return 0;
 }

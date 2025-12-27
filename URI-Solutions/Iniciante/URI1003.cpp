@@ -1,11 +1,12 @@
-using System; 
+#include <iostream>
+using namespace std;
 
-public class URI1003{
-    static void Main(string[] args) {
-        int A = int.Parse(Console.ReadLine());
-        int B = int.Parse(Console.ReadLine());
-        int SOMA = A + B;
+int main() {
+    int A, B, SUM;
+    cin >> A;
+    cin >> B;
 
-        Console.WriteLine($"SOMA = {SOMA}");
-    }
+    SUM = A + B;
+    cout << "SOMA = " << SUM;
+    return 0;
 }

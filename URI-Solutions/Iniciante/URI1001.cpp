@@ -1,12 +1,12 @@
-using System; 
+#include <iostream> 
+using namespace std;
 
-public class URI1001{
-    static void Main(string[] args) {
-        int A = int.Parse(Console.ReadLine());
-        int B = int.Parse(Console.ReadLine());
-
-        int X = A + B;
-
-        Console.WriteLine($"X = {X}");
-    }
+int main() {
+    int A, B, X;
+    cin >> A;
+    cin >> B;
+    
+    X = A + B;
+    cout <<  "X = " << X;
+    return 0;
 }

@@ -1,13 +1,16 @@
-using System; 
+#include <iostream>
+#include <iomanip>
+using namespace std;
 
-public class URI1005{
-    static void Main(string[] args) {
-        double A = double.Parse(Console.ReadLine());
-        double B = double.Parse(Console.ReadLine());
-        double P1 = 3.5;
-        double P2 = 7.5;
-        double MEDIA = (A * P1 + B * P2) / (P1 + P2);
-
-        Console.WriteLine("MEDIA = " + MEDIA.ToString("F5"));
-    }
+int main() {
+    double A, B, P1, P2, AVERAGE;
+    cin >> A;
+    cin >> B;
+    P1 = 3.5;
+    P2 = 7.5;
+    
+    AVERAGE = (A * P1 + B * P2) / (P1 + P2);
+    cout << fixed << setprecision(5);
+    cout << "MEDIA = " << AVERAGE;
+    return 0;
 }
